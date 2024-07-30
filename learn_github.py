@@ -1,2 +1,5 @@
 ls = [1, 4, 32, 67]
-print(sum(ls))
+
+ls = list(map(lambda x: str(x), ls))
+
+print(ls)
